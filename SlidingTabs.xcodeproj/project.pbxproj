@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DD154AB137C658900F440E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AA137C658900F440E0 /* UIKit.framework */; };
+		6DD154AD137C658900F440E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AC137C658900F440E0 /* Foundation.framework */; };
+		6DD154AF137C658900F440E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AE137C658900F440E0 /* CoreGraphics.framework */; };
+		6DD154B5137C658900F440E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154B3137C658900F440E0 /* InfoPlist.strings */; };
+		6DD154B8137C658A00F440E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154B7137C658A00F440E0 /* main.m */; };
+		6DD154BB137C658A00F440E0 /* SlidingTabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */; };
+		6DD154BE137C658A00F440E0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154BC137C658A00F440E0 /* MainWindow.xib */; };
+		6DD154C1137C658A00F440E0 /* SlidingTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */; };
+		6DD154C4137C658A00F440E0 /* SlidingTabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6DD154A6137C658900F440E0 /* SlidingTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD154AA137C658900F440E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6DD154AC137C658900F440E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DD154AE137C658900F440E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6DD154B2137C658900F440E0 /* SlidingTabs-Info.plist */ = {isa = PBXFileReference; path = "SlidingTabs-Info.plist"; sourceTree = "<group>"; };
+		6DD154B4137C658900F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DD154B6137C658A00F440E0 /* SlidingTabs-Prefix.pch */ = {isa = PBXFileReference; path = "SlidingTabs-Prefix.pch"; sourceTree = "<group>"; };
+		6DD154B7137C658A00F440E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DD154B9137C658A00F440E0 /* SlidingTabsAppDelegate.h */ = {isa = PBXFileReference; path = SlidingTabsAppDelegate.h; sourceTree = "<group>"; };
+		6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsAppDelegate.m; sourceTree = "<group>"; };
+		6DD154BD137C658A00F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6DD154BF137C658A00F440E0 /* SlidingTabsViewController.h */ = {isa = PBXFileReference; path = SlidingTabsViewController.h; sourceTree = "<group>"; };
+		6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsViewController.m; sourceTree = "<group>"; };
+		6DD154C3137C658A00F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SlidingTabsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DD154A3137C658900F440E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD154AB137C658900F440E0 /* UIKit.framework in Frameworks */,
+				6DD154AD137C658900F440E0 /* Foundation.framework in Frameworks */,
+				6DD154AF137C658900F440E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DD1549B137C658700F440E0 = {
+			isa = PBXGroup;
+			children = (
+				6DD154B0137C658900F440E0 /* SlidingTabs */,
+				6DD154A9137C658900F440E0 /* Frameworks */,
+				6DD154A7137C658900F440E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DD154A7137C658900F440E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DD154A6137C658900F440E0 /* SlidingTabs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DD154A9137C658900F440E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DD154AA137C658900F440E0 /* UIKit.framework */,
+				6DD154AC137C658900F440E0 /* Foundation.framework */,
+				6DD154AE137C658900F440E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DD154B0137C658900F440E0 /* SlidingTabs */ = {
+			isa = PBXGroup;
+			children = (
+				6DD154B9137C658A00F440E0 /* SlidingTabsAppDelegate.h */,
+				6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */,
+				6DD154BC137C658A00F440E0 /* MainWindow.xib */,
+				6DD154BF137C658A00F440E0 /* SlidingTabsViewController.h */,
+				6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */,
+				6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */,
+				6DD154B1137C658900F440E0 /* Supporting Files */,
+			);
+			path = SlidingTabs;
+			sourceTree = "<group>";
+		};
+		6DD154B1137C658900F440E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DD154B2137C658900F440E0 /* SlidingTabs-Info.plist */,
+				6DD154B3137C658900F440E0 /* InfoPlist.strings */,
+				6DD154B6137C658A00F440E0 /* SlidingTabs-Prefix.pch */,
+				6DD154B7137C658A00F440E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DD154A5137C658900F440E0 /* SlidingTabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DD154C7137C658A00F440E0 /* Build configuration list for PBXNativeTarget "SlidingTabs" */;
+			buildPhases = (
+				6DD154A2137C658900F440E0 /* Sources */,
+				6DD154A3137C658900F440E0 /* Frameworks */,
+				6DD154A4137C658900F440E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingTabs;
+			productName = SlidingTabs;
+			productReference = 6DD154A6137C658900F440E0 /* SlidingTabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DD1549D137C658700F440E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = PHH;
+			};
+			buildConfigurationList = 6DD154A0137C658700F440E0 /* Build configuration list for PBXProject "SlidingTabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6DD1549B137C658700F440E0;
+			productRefGroup = 6DD154A7137C658900F440E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DD154A5137C658900F440E0 /* SlidingTabs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DD154A4137C658900F440E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD154B5137C658900F440E0 /* InfoPlist.strings in Resources */,
+				6DD154BE137C658A00F440E0 /* MainWindow.xib in Resources */,
+				6DD154C4137C658A00F440E0 /* SlidingTabsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DD154A2137C658900F440E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD154B8137C658A00F440E0 /* main.m in Sources */,
+				6DD154BB137C658A00F440E0 /* SlidingTabsAppDelegate.m in Sources */,
+				6DD154C1137C658A00F440E0 /* SlidingTabsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DD154B3137C658900F440E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD154B4137C658900F440E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6DD154BC137C658A00F440E0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD154BD137C658A00F440E0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DD154C3137C658A00F440E0 /* en */,
+			);
+			name = SlidingTabsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DD154C5137C658A00F440E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DD154C6137C658A00F440E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6DD154C8137C658A00F440E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingTabs/SlidingTabs-Prefix.pch";
+				INFOPLIST_FILE = "SlidingTabs/SlidingTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6DD154C9137C658A00F440E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingTabs/SlidingTabs-Prefix.pch";
+				INFOPLIST_FILE = "SlidingTabs/SlidingTabs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DD154A0137C658700F440E0 /* Build configuration list for PBXProject "SlidingTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD154C5137C658A00F440E0 /* Debug */,
+				6DD154C6137C658A00F440E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DD154C7137C658A00F440E0 /* Build configuration list for PBXNativeTarget "SlidingTabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DD154C8137C658A00F440E0 /* Debug */,
+				6DD154C9137C658A00F440E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DD1549D137C658700F440E0 /* Project object */;
+}
