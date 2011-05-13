@@ -7,32 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D04E019137CC4DC00FFE93A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D04E018137CC4DC00FFE93A /* QuartzCore.framework */; };
+		6DA2F21D137C66AE00AB7992 /* SlidingTabsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2F21C137C66AE00AB7992 /* SlidingTabsControl.m */; };
+		6DA2F222137C66D600AB7992 /* SlidingTabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2F21F137C66D600AB7992 /* SlidingTabsAppDelegate.m */; };
+		6DA2F223137C66D600AB7992 /* SlidingTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2F221137C66D600AB7992 /* SlidingTabsViewController.m */; };
+		6DA2F225137C66F400AB7992 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2F224137C66F400AB7992 /* InfoPlist.strings */; };
+		6DA2F228137C671300AB7992 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2F226137C671300AB7992 /* MainWindow.xib */; };
+		6DA2F229137C671300AB7992 /* SlidingTabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2F227137C671300AB7992 /* SlidingTabsViewController.xib */; };
+		6DA2F22C137C855100AB7992 /* SlidingTabsTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2F22B137C855100AB7992 /* SlidingTabsTab.m */; };
 		6DD154AB137C658900F440E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AA137C658900F440E0 /* UIKit.framework */; };
 		6DD154AD137C658900F440E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AC137C658900F440E0 /* Foundation.framework */; };
 		6DD154AF137C658900F440E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD154AE137C658900F440E0 /* CoreGraphics.framework */; };
-		6DD154B5137C658900F440E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154B3137C658900F440E0 /* InfoPlist.strings */; };
 		6DD154B8137C658A00F440E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154B7137C658A00F440E0 /* main.m */; };
-		6DD154BB137C658A00F440E0 /* SlidingTabsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */; };
-		6DD154BE137C658A00F440E0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154BC137C658A00F440E0 /* MainWindow.xib */; };
-		6DD154C1137C658A00F440E0 /* SlidingTabsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */; };
-		6DD154C4137C658A00F440E0 /* SlidingTabsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D04E018137CC4DC00FFE93A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6DA2F21B137C66AE00AB7992 /* SlidingTabsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTabsControl.h; path = Classes/SlidingTabsControl.h; sourceTree = "<group>"; };
+		6DA2F21C137C66AE00AB7992 /* SlidingTabsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTabsControl.m; path = Classes/SlidingTabsControl.m; sourceTree = "<group>"; };
+		6DA2F21E137C66D600AB7992 /* SlidingTabsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTabsAppDelegate.h; path = Classes/SlidingTabsAppDelegate.h; sourceTree = "<group>"; };
+		6DA2F21F137C66D600AB7992 /* SlidingTabsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTabsAppDelegate.m; path = Classes/SlidingTabsAppDelegate.m; sourceTree = "<group>"; };
+		6DA2F220137C66D600AB7992 /* SlidingTabsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTabsViewController.h; path = Classes/SlidingTabsViewController.h; sourceTree = "<group>"; };
+		6DA2F221137C66D600AB7992 /* SlidingTabsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTabsViewController.m; path = Classes/SlidingTabsViewController.m; sourceTree = "<group>"; };
+		6DA2F224137C66F400AB7992 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6DA2F226137C671300AB7992 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		6DA2F227137C671300AB7992 /* SlidingTabsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidingTabsViewController.xib; sourceTree = "<group>"; };
+		6DA2F22A137C855100AB7992 /* SlidingTabsTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SlidingTabsTab.h; path = Classes/SlidingTabsTab.h; sourceTree = "<group>"; };
+		6DA2F22B137C855100AB7992 /* SlidingTabsTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SlidingTabsTab.m; path = Classes/SlidingTabsTab.m; sourceTree = "<group>"; };
 		6DD154A6137C658900F440E0 /* SlidingTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DD154AA137C658900F440E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6DD154AC137C658900F440E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6DD154AE137C658900F440E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6DD154B2137C658900F440E0 /* SlidingTabs-Info.plist */ = {isa = PBXFileReference; path = "SlidingTabs-Info.plist"; sourceTree = "<group>"; };
-		6DD154B4137C658900F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6DD154B6137C658A00F440E0 /* SlidingTabs-Prefix.pch */ = {isa = PBXFileReference; path = "SlidingTabs-Prefix.pch"; sourceTree = "<group>"; };
+		6DD154B2137C658900F440E0 /* SlidingTabs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingTabs-Info.plist"; sourceTree = "<group>"; };
+		6DD154B6137C658A00F440E0 /* SlidingTabs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingTabs-Prefix.pch"; sourceTree = "<group>"; };
 		6DD154B7137C658A00F440E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6DD154B9137C658A00F440E0 /* SlidingTabsAppDelegate.h */ = {isa = PBXFileReference; path = SlidingTabsAppDelegate.h; sourceTree = "<group>"; };
-		6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsAppDelegate.m; sourceTree = "<group>"; };
-		6DD154BD137C658A00F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6DD154BF137C658A00F440E0 /* SlidingTabsViewController.h */ = {isa = PBXFileReference; path = SlidingTabsViewController.h; sourceTree = "<group>"; };
-		6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlidingTabsViewController.m; sourceTree = "<group>"; };
-		6DD154C3137C658A00F440E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SlidingTabsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D04E019137CC4DC00FFE93A /* QuartzCore.framework in Frameworks */,
 				6DD154AB137C658900F440E0 /* UIKit.framework in Frameworks */,
 				6DD154AD137C658900F440E0 /* Foundation.framework in Frameworks */,
 				6DD154AF137C658900F440E0 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +61,7 @@
 		6DD1549B137C658700F440E0 = {
 			isa = PBXGroup;
 			children = (
+				6D04E018137CC4DC00FFE93A /* QuartzCore.framework */,
 				6DD154B0137C658900F440E0 /* SlidingTabs */,
 				6DD154A9137C658900F440E0 /* Frameworks */,
 				6DD154A7137C658900F440E0 /* Products */,
@@ -79,12 +89,16 @@
 		6DD154B0137C658900F440E0 /* SlidingTabs */ = {
 			isa = PBXGroup;
 			children = (
-				6DD154B9137C658A00F440E0 /* SlidingTabsAppDelegate.h */,
-				6DD154BA137C658A00F440E0 /* SlidingTabsAppDelegate.m */,
-				6DD154BC137C658A00F440E0 /* MainWindow.xib */,
-				6DD154BF137C658A00F440E0 /* SlidingTabsViewController.h */,
-				6DD154C0137C658A00F440E0 /* SlidingTabsViewController.m */,
-				6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */,
+				6DA2F22A137C855100AB7992 /* SlidingTabsTab.h */,
+				6DA2F22B137C855100AB7992 /* SlidingTabsTab.m */,
+				6DA2F21B137C66AE00AB7992 /* SlidingTabsControl.h */,
+				6DA2F21C137C66AE00AB7992 /* SlidingTabsControl.m */,
+				6DA2F21E137C66D600AB7992 /* SlidingTabsAppDelegate.h */,
+				6DA2F21F137C66D600AB7992 /* SlidingTabsAppDelegate.m */,
+				6DA2F220137C66D600AB7992 /* SlidingTabsViewController.h */,
+				6DA2F221137C66D600AB7992 /* SlidingTabsViewController.m */,
+				6DA2F226137C671300AB7992 /* MainWindow.xib */,
+				6DA2F227137C671300AB7992 /* SlidingTabsViewController.xib */,
 				6DD154B1137C658900F440E0 /* Supporting Files */,
 			);
 			path = SlidingTabs;
@@ -93,8 +107,8 @@
 		6DD154B1137C658900F440E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6DA2F224137C66F400AB7992 /* InfoPlist.strings */,
 				6DD154B2137C658900F440E0 /* SlidingTabs-Info.plist */,
-				6DD154B3137C658900F440E0 /* InfoPlist.strings */,
 				6DD154B6137C658A00F440E0 /* SlidingTabs-Prefix.pch */,
 				6DD154B7137C658A00F440E0 /* main.m */,
 			);
@@ -151,9 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DD154B5137C658900F440E0 /* InfoPlist.strings in Resources */,
-				6DD154BE137C658A00F440E0 /* MainWindow.xib in Resources */,
-				6DD154C4137C658A00F440E0 /* SlidingTabsViewController.xib in Resources */,
+				6DA2F225137C66F400AB7992 /* InfoPlist.strings in Resources */,
+				6DA2F228137C671300AB7992 /* MainWindow.xib in Resources */,
+				6DA2F229137C671300AB7992 /* SlidingTabsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,39 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DD154B8137C658A00F440E0 /* main.m in Sources */,
-				6DD154BB137C658A00F440E0 /* SlidingTabsAppDelegate.m in Sources */,
-				6DD154C1137C658A00F440E0 /* SlidingTabsViewController.m in Sources */,
+				6DA2F21D137C66AE00AB7992 /* SlidingTabsControl.m in Sources */,
+				6DA2F222137C66D600AB7992 /* SlidingTabsAppDelegate.m in Sources */,
+				6DA2F223137C66D600AB7992 /* SlidingTabsViewController.m in Sources */,
+				6DA2F22C137C855100AB7992 /* SlidingTabsTab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6DD154B3137C658900F440E0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DD154B4137C658900F440E0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6DD154BC137C658A00F440E0 /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DD154BD137C658A00F440E0 /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		6DD154C2137C658A00F440E0 /* SlidingTabsViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DD154C3137C658A00F440E0 /* en */,
-			);
-			name = SlidingTabsViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6DD154C5137C658A00F440E0 /* Debug */ = {
@@ -279,6 +268,7 @@
 				6DD154C9137C658A00F440E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
