@@ -3,7 +3,7 @@
 //  SlidingTabs
 //
 //  Created by Mathew Piccinato on 5/12/11.
-//  Copyright 2011 PHH. All rights reserved.
+//  Copyright 2011 Constructt. All rights reserved.
 //
 
 #import "SlidingTabsTab.h"
