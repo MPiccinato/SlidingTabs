@@ -156,7 +156,7 @@
 
 - (void)touchDownAction:(UIButton*)button
 {
-    if ([_delegate respondsToSelector:@selector(touchDownAtSegmentIndex:)])
+    if ([_delegate respondsToSelector:@selector(touchDownAtTabIndex:)])
         [_delegate touchDownAtTabIndex:[_buttons indexOfObject:button]];
 }
 
@@ -173,7 +173,7 @@
     [_tab setFrame:CGRectMake(newPosition, 0, _tab.frame.size.width, _tab.frame.size.height)];
     [UIView commitAnimations];
     
-    if ([_delegate respondsToSelector:@selector(touchUpInsideSegmentIndex:)])
+    if ([_delegate respondsToSelector:@selector(touchUpInsideTabIndex:)])
         [_delegate touchUpInsideTabIndex:[_buttons indexOfObject:button]];
 }
 
